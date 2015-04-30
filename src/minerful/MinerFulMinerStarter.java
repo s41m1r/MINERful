@@ -271,7 +271,6 @@ public class MinerFulMinerStarter extends AbstractMinerFulStarter {
         }
 
         before = System.currentTimeMillis();
-
         // search for existence constraints
         IConstraintsMiner exiConMiner = new ProbabilisticExistenceConstraintsMiner(statsTable, taskCharArchive);
         exiConMiner.setSupportThreshold(viewParams.supportThreshold);
